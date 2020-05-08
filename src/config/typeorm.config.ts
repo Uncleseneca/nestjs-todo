@@ -12,3 +12,7 @@ export const typeOrmConfig: TypeOrmModuleOptions = {
   entities: [Task, User],
   synchronize: true,
 };
+
+export const typeOrmErrorCodes = {
+  DUPLICATE_ENTITY: '23505',
+};

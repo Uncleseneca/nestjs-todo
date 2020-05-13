@@ -450,12 +450,12 @@
     optional "0.1.4"
     tslib "1.11.1"
 
-"@nestjs/typeorm@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@nestjs/typeorm/-/typeorm-7.0.0.tgz#0993a949bba81756317e8e865882184bd7f16133"
-  integrity sha512-oIiQRihMVNQPE6PzEaB7UDfGlktCtkHNxI2HeSf/Uyrjl7DspPSHNLg9IVVSztk+L9kJquYMXhzApr2PxoK3EQ==
+"@nestjs/typeorm@^6.1.1":
+  version "6.3.4"
+  resolved "https://registry.yarnpkg.com/@nestjs/typeorm/-/typeorm-6.3.4.tgz#d73ee782080500f7d314ec5131fe9cb32817d2a4"
+  integrity sha512-qMUHaTMo+U5WOlMfL0ogNm8C2T/Kej/v+NnjSixx/UmtluLvTbNYuZUfbHI9ePCmtCXDV0lMRvIAi+U5LCjsbA==
   dependencies:
-    uuid "7.0.2"
+    uuid "^7.0.2"
 
 "@nuxtjs/opencollective@0.2.2":
   version "0.2.2"
@@ -1279,12 +1279,12 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-bcrypt@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/bcrypt/-/bcrypt-4.0.1.tgz#06e21e749a061020e4ff1283c1faa93187ac57fe"
-  integrity sha512-hSIZHkUxIDS5zA2o00Kf2O5RfVbQ888n54xQoF/eIaquU4uaLxK8vhhBdktd0B3n2MjkcAWzv4mnhogykBKOUQ==
+bcrypt@^3.0.6:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/bcrypt/-/bcrypt-3.0.8.tgz#fe437b7569faffc1105c3c3f6e7d2913e3d3bea5"
+  integrity sha512-jKV6RvLhI36TQnPDvUFqBEnGX9c8dRRygKxCZu7E+MgLfKZbmmXL8a7/SFFOyHoPNX9nV81cKRC5tbQfvEQtpw==
   dependencies:
-    node-addon-api "^2.0.0"
+    nan "2.14.0"
     node-pre-gyp "0.14.0"
 
 big.js@^5.2.2:
@@ -4721,7 +4721,7 @@ mz@^2.4.0:
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
 
-nan@^2.12.1:
+nan@2.14.0, nan@^2.12.1:
   version "2.14.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
   integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
@@ -4781,11 +4781,6 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
-
-node-addon-api@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-2.0.0.tgz#f9afb8d777a91525244b01775ea0ddbe1125483b"
-  integrity sha512-ASCL5U13as7HhOExbT6OlWJJUV/lLzL2voOSP1UVehpRD8FbSrSDjfScK/KwAvVTI5AS6r4VwbOMlIqtvRidnA==
 
 node-emoji@1.10.0:
   version "1.10.0"
@@ -6906,7 +6901,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeorm@^0.2.24:
+typeorm@^0.2.17:
   version "0.2.24"
   resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.2.24.tgz#cd0fbd907326873a96c98e290fca49c589f0ffa8"
   integrity sha512-L9tQv6nNLRyh+gex/qc8/CyLs8u0kXKqk1OjYGF13k/KOg6N2oibwkuGgv0FuoTGYx2ta2NmqvuMUAMrHIY5ew==
@@ -7043,15 +7038,15 @@ uuid@7.0.1:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.1.tgz#95ed6ff3d8c881cbf85f0f05cc3915ef994818ef"
   integrity sha512-yqjRXZzSJm9Dbl84H2VDHpM3zMjzSJQ+hn6C4zqd5ilW+7P4ZmLEEqwho9LjP+tGuZlF4xrHQXT0h9QZUS/pWA==
 
-uuid@7.0.2:
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.2.tgz#7ff5c203467e91f5e0d85cfcbaaf7d2ebbca9be6"
-  integrity sha512-vy9V/+pKG+5ZTYKf+VcphF5Oc6EFiu3W8Nv3P3zIh0EqVI80ZxOzuPfe9EHjkFNvf8+xuTHVeei4Drydlx4zjw==
-
 uuid@^3.3.2:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
+uuid@^7.0.2:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
+  integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
 
 v8-compile-cache@^2.0.3:
   version "2.1.0"
